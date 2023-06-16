@@ -1,0 +1,3 @@
+5. vedi file hosts di F1
+6. server: iperf -sp 1234 --- client: iperf -c [indirizzo server] -p 1234
+7. iptables -L -v (Molto probabilmente è errata, forse è qualche tcpdump con opzioni strane lol)

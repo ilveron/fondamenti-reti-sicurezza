@@ -1,0 +1,5 @@
+5.  route 
+    La metrica è una misura che ci indica quanto quella rotta sia veloce (più è bassa meglio è)
+
+6. tcpdump icmp
+7. ethtool eth0 / ifconfig eth0 (Dipende da cosa intendono nel quesito boh)

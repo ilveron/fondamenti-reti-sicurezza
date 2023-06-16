@@ -1,0 +1,13 @@
+# '/etc/network/interfaces' created by jNetEdit
+
+# Interfaces configuration
+auto eth0
+auto eth1
+auto eth2
+auto eth3
+
+
+# exec firewall config script
+post-up /etc/network/myscript/firewall
+
+

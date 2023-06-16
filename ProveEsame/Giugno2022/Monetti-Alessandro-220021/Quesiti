@@ -1,0 +1,3 @@
+5. traceroute
+6. nc -l 1234
+7. nslookup -type=MX mat.unical.it

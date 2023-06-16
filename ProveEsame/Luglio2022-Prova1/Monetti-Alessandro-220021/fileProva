@@ -1,0 +1,16 @@
+
+Chain INPUT (policy DROP 81 packets, 12431 bytes)
+ pkts bytes target prot opt in out source destination
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target prot opt in out source destination
+  10 0 internetRED all -- * * 0.0.0.0/0 0.0.0.0/0
+
+Chain OUTPUT (policy DROP 43 packets, 5845 bytes)
+ pkts bytes target prot opt in out source destination
+
+Chain internetRED (1 references)
+ pkts bytes target prot opt in out source destination
+  4 0 ACCEPT tcp -- * * 35.87.125.36 0.0.0.0/0 tcp dpt:80
+  3 0 ACCEPT udp -- * * 192.168.1.150 0.0.0.0/0 udp dpt:53
+  3 0 DROP tcp -- * * 192.168.1.107 0.0.0.0/0 tcp dpt:8080

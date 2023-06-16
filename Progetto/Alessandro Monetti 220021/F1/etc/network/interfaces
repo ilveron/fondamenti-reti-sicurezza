@@ -1,0 +1,12 @@
+# '/etc/network/interfaces' created by jNetEdit
+
+# Interfaces configuration
+# eth0 connected to TAP.
+auto eth1
+auto eth2
+
+
+# exec firewall config script
+post-up /etc/network/myscript/firewall
+
+

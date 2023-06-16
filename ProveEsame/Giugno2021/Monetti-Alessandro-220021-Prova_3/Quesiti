@@ -1,0 +1,4 @@
+5. watch iptables -L -vn
+6. iperf -s -p [porta] (apre un server in ascolto su data porta)
+   iperf -c [hostname] -p [porta] (apre connessione con server in ascolto e misura performance del collegamento)
+7. nslookup -type=MX mat.unical.it

@@ -1,0 +1,19 @@
+auto lo
+iface lo inet loopback
+
+auto eth0
+auto eth1
+iface eth0 inet static
+    address 10.0.4.6
+    netmask 255.255.255.252
+    network 10.0.4.4
+    broadcast 10.0.4.7
+    gateway 10.0.4.5
+
+iface eth1 inet static
+    address 10.0.4.9
+    netmask 255.255.255.252
+    network 10.0.4.8
+    broadcast 10.0.4.11
+    gateway 10.0.4.10
+

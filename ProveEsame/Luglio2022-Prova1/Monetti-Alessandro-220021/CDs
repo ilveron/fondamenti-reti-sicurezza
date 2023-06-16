@@ -1,0 +1,50 @@
+## ESEMPIO DI CD ##
+CDX
+    network X.X.X.X/YY
+    netmask X.X.X.X
+    broadcast X.X.X.X
+
+- SOSTITUISCI LA STRINGA NOME_AREA CON L'AREA DA ACCORPARE
+- RISPETTA IL FORMATO SUGGERITO PER NETWORK, NETMASK E BROADCAST 
+- CANCELLA TUTTO CIÒ CHE È CONTENUTO NELLAREA DEL COMMENTO (FINO A RIGA 10 INCLUSA)
+#########
+CD1
+	network
+	netmask
+	broadcast
+	
+CD2
+	network
+	netmask
+	broadcast
+
+CD4
+	network
+	netmask
+	broadcast
+
+CD6
+	network
+	netmask
+	broadcast
+
+CD8
+	network
+	netmask
+	broadcast
+
+CD9
+	network
+	netmask
+	broadcast
+
+TAP
+	network
+	netmask
+	broadcast
+
+# Accorpamento NOME_AREA
+NOME_AREA
+    network X.X.X.X/YY
+    netmask X.X.X.X
+    broadcast X.X.X.X

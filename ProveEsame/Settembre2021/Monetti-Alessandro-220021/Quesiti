@@ -1,0 +1,8 @@
+5. telnet ml.mat.unical.it 25
+HELO Esame
+MAIL FROM: <prova@mat.unical.it>
+RCPT TO: <ianni1@mat.unical.it>
+DATA
+Prova 
+.
+QUIT

@@ -1,0 +1,58 @@
+CD1
+    network 10.0.2.0/24
+    netmask 255.255.255.0
+    broadcast 10.0.2.255
+
+CD2
+    network 10.0.4.0/30
+    netmask 255.255.255.252
+    broadcast 10.0.4.3
+
+CD4
+    network 10.0.4.4/30
+    netmask 255.255.255.252
+    broadcast 10.0.4.7
+
+CD5
+    network 10.0.4.8/30
+    netmask 255.255.255.252
+    broadcast 10.0.4.11
+
+CD6
+    network 10.0.3.0/25
+    netmask 255.255.255.128
+    broadcast 10.0.3.127 
+
+CD7
+    network 10.0.3.128/26
+    netmask 255.255.255.192
+    broadcast 10.0.3.191   
+
+CD9
+    network 10.0.0.0/23
+    netmask 255.255.254.0
+    broadcast 10.0.1.255
+
+TAP
+    network 10.0.4.12/30
+    netmask 255.255.255.252
+    broadcast 10.0.4.15
+
+
+# Accorpamento RED
+RED
+    network 10.0.0.0/23
+    netmask 255.255.254.0
+    broadcast 10.0.1.255
+
+# Accorpamento DMZ
+DMZ
+    network 10.0.2.0/24
+    netmask 255.255.255.0
+    broadcast 10.0.2.255
+
+# Accorpamento GREEN
+GREEN
+    network 10.0.3.0/24
+    netmask 255.255.255.0
+    broadcast 10.0.3.255
